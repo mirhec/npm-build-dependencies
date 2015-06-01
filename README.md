@@ -1,5 +1,5 @@
 # Build dependencies
-This is an extension to copy files from a dependency server (another directory in your file system) into your local project in order to build your project. This is usefull if you want to use npm as your [build tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/), e.g. to build your Java applications.
+This is an extension to copy files from a dependency server (another directory in your file system) into your local project in order to build your project. This is useful if you want to use npm as your [build tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/), e.g. to build your Java applications.
 
 ## General usage
 In order to use this script, create the following config properties in your `package.json` file:
