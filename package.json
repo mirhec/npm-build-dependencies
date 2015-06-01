@@ -15,6 +15,9 @@
     "dependencies",
     "depends"
   ],
+  "dependencies": {
+    "cp": "^0.2.0"
+  },
   "author": "Mirko Hecky",
   "license": "ISC",
   "repository": {
