@@ -1,6 +1,6 @@
 {
   "name": "build-dependencies",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Copy dependency files into your project directory.",
   "main": "index.js",
   "bin": "./bin/build-dependencies",
