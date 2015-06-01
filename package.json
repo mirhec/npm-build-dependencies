@@ -1,0 +1,20 @@
+{
+  "name": "build-dependencies",
+  "version": "1.0.1",
+  "description": "Copy dependency files into your project directory.",
+  "main": "index.js",
+  "bin": "./bin/build-dependencies",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "build",
+    "build",
+    "tool",
+    "dependency",
+    "dependencies",
+    "depends"
+  ],
+  "author": "Mirko Hecky",
+  "license": "ISC"
+}
