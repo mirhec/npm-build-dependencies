@@ -10,9 +10,9 @@ module.exports = buildDeps = () ->
         n = env['npm_package_config_dependencies_' + i]
         if n?
             src = path.join env.npm_package_config_dependencies_base, n
-            dst = env.npm_package_config_dependencies_dest ? 'lib'
+            dst = path.join env.npm_package_config_dependencies_dest ? 'lib', n
             console.log 'build:dependencies ::   ' + n + ' ... ' + 'Ok.'.green
-            cp.sync src, path.normalize(dst) + '/'
+            cp.sync src, dst
         else
             break
         i++
