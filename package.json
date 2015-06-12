@@ -2,10 +2,13 @@
   "name": "build-dependencies",
   "version": "1.0.4",
   "description": "Copy dependency files into your project directory.",
-  "main": "index.js",
+  "main": "lib/build-dependencies.js",
   "bin": "./bin/build-dependencies",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "npm run build",
+    "prepublish": "npm run build",
+    "build": "coffee --compile --output lib/ src/"
   },
   "keywords": [
     "build",
@@ -14,7 +17,8 @@
     "depends"
   ],
   "dependencies": {
-    "cp": "^0.2.0"
+    "cp": "^0.2.0",
+    "colors": "^1.1.0"
   },
   "author": "Mirko Hecky",
   "license": "ISC",
